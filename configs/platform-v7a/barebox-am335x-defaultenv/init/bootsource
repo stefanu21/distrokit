@@ -5,9 +5,9 @@ if [ -n "$nv.boot.default" ]; then
 fi
 
 if [ $bootsource = mmc ]; then
-	global.boot.default="bootchooser net"
+	global.boot.default="bootchooser emmc"
 elif [ $bootsource = net ]; then
 	global.boot.default="net bootchooser"
 else
-	global.boot.default="disk0.1 net"
+	global.boot.default="bootchooser sd"
 fi
