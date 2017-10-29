@@ -15,9 +15,9 @@ PTXCONF_DATAPARTITION=y
 #
 # Project Name & Version        
 #
-PTXCONF_PROJECT_VENDOR="Pengutronix"
-PTXCONF_PROJECT="DistroKit"
-PTXCONF_PROJECT_VERSION="-${PTXDIST_BSP_AUTOVERSION}"
+PTXCONF_PROJECT_VENDOR="Custom"
+PTXCONF_PROJECT="StartUp"
+PTXCONF_PROJECT_VERSION="-V0.0"
 
 #
 # ------------------------------------
